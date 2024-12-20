@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #db3030;
+    padding: 20px;
+}
+
+header {
+    display: flex; /* Torna o container flexível */
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    height: 10vh; /* Altura total da janela do navegador */
+    background-color: #f8f9fa;
+    ; /* Cor de fundo (opcional) */
+    color: #333; /* Cor do texto */
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    color: #555;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 4px hsla(0, 0, 0, 0.2);
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+img {
+  width: 200px; /* Define a largura da imagem */
+  height: auto; /* Mantém a proporção original da imagem */
+  display: block;
+  margin: 0 auto; /* Centraliza a imagem */
+
+}
+
